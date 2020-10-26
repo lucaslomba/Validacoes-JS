@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style/theme.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cadastro de Usuário</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Cadastro de Usuário</h1>
+        <form id="form" method="get" action="./cadastro-sucesso.html">
+          <hr class="divider" />
+          <h2 class="subtitulo">Informações de Acesso</h2>
+          <div class="input-container">
+            <label class="label" for="email">
+              Email
+              <span class="info">(Necessário)</span>
+            </label>
+            <input class="input" name="email" id="email" />
+          </div>
+          <div class="input-container">
+            <label class="label" for="password"
+              >Senha <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="password" id="password" />
+          </div>
+          <hr class="divider" />
+          <h2 class="subtitulo">Informações Pessoais</h2>
+          <div class="input-container">
+            <label class="label" for="dataNascimento"
+              >Data de Nascimento <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="dataNascimento" id="dataNascimento" />
+          </div>
+          <div class="input-container">
+            <label class="label" for="cpf"
+              >CPF <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="cpf" id="cpf" />
+          </div>
+          <div class="input-container">
+            <label class="label" for="rg"
+              >RG <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="rg" id="rg" />
+          </div>
+          <hr class="divider" />
+          <h2 class="subtitulo">Endereço</h2>
+          <div class="input-container">
+            <label class="label" for="cep"
+              >CEP <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="cep" id="cep" />
+          </div>
+          <div class="input-container">
+            <label class="label" for="logradouro"
+              >Logradouro <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="logradouro" id="logradouro" />
+          </div>
+          <div class="input-container">
+            <label class="label" for="cidade"
+              >Cidade <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="cidade" id="cidade" />
+          </div>
+          <div class="input-container">
+            <label class="label" for="estado"
+              >Estado <span class="info">(Necessário)</span></label
+            >
+            <input class="input" name="estado" id="estado" />
+          </div>
+          <div class="botao-container">
+            <button class="botao botao-azul" type="submit" id="botaoSubmit">
+              Cadastrar Usuário
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
